@@ -43,41 +43,35 @@ function back10() {
 }
 
 function volumeUp() {
-
+    
     console.log('volume-up');
-
 }
 
 function volumedown() {
 
     console.log('volume-down');
-
 }
 
 function dowmload() {
 
     console.log('download');
-
 }
 function swap(){
 
     console.log('swap');
-    
 }
 
 function quality() {
 
     console.log('quality');
-
 }
 
 function fullScreen() {
-    console.log('fs');
 
+    console.log('fs');
 }
 function mute() {
     console.log('fs');
-
 }
 playBtn.addEventListener('click', play);
 pauseBtn.addEventListener('click', pause);

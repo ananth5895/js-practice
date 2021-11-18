@@ -14,8 +14,8 @@ function calculate(){
     sellingPriceValue = sellingPriceInput.value;
     cogsValue = cogsInput.value;
     grossMarginValue = sellingPriceValue - cogsValue;
-    // console.log(grossMarginValue);
-    grossMarginInput.value = grossMarginValue;
+    console.log(grossMarginValue);
+    // grossMarginInput.value = grossMarginValue;
     salesMarketingValue = salesMarketingInput.value;
     operationsCostValue = operationsCostInput.value;
 

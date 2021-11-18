@@ -1,5 +1,5 @@
 let myButton = document.getElementById('color-generator');
-// console.log(myButton);
+
 myButton.addEventListener('click', function () {
     let bodyTag = document.getElementById('body-tag');
     console.log(generateRandomColor())
@@ -19,6 +19,8 @@ function generateRandomColor() {
         seperator = ' ',
         last = ')';
     red = getRandomInt(0, 255);
+    // console.log(red);
+
     green = getRandomInt(0, 255);
     blue = getRandomInt(0, 255);
 
